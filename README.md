@@ -10,4 +10,6 @@ The classic variant involves a 10x10 grid. The numbers 1 to 100 are placed in th
 
 The goal is to finish with the grid completely filled with all the numbers, or to reach the highest number possible.
 
-This script attempts to solve the puzzle from a given starting position. Grid size can be altered. It uses heuristic-based move sorting and depth-first search with backtracking to find the solution as efficiently as possible. The puzzle cannot be solved from all starting positions.
+This script attempts to solve the puzzle from a given starting position. Grid size can be altered. It uses heuristic-based move sorting and depth-first search with backtracking to find the solution as efficiently as possible.
+
+The script finds the solution for most starting points in a couple of seconds, and quickly finds a solution that reaches 98-99 for all of them. I suspect the puzzle is solvable from any starting point, but finding those solutions would take too long.
