@@ -1,6 +1,8 @@
 # grid_solver
 Solves an old number placement puzzle.
 
+![Illustration of a solved grid puzzle](https://github.com/lauriwesterlund/grid_solver/blob/main/grid_solution.png)
+
 The classic variant involves a 10x10 grid. The numbers 1 to 100 are placed in the grid in ascending order.
 - The first number can be placed in any cell.
 - Subsequent numbers must be placed either 3 cells away from the previous number horizontally or vertically, or 2 cells away diagonally.
