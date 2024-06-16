@@ -104,7 +104,6 @@ def solve_grid_from_starting_position(starting_x ,starting_y):
             print(highest_number[1])
         else:
             elapsed_time = time.time() - start_time
-            elapsed_time = time.time() - start_time
             clear_console()
             print("No solution found.")
             print("Total time: {:.2f} seconds".format(elapsed_time))
