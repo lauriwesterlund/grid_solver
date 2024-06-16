@@ -2,10 +2,10 @@
 # Author: Lauri Westerlund
 # Date: 2024-06-16
 #
-# This is a Python script that solves a number placement puzzle on a grid.
+# This is a Python script that solves an old number placement puzzle on a grid.
 # The goal is to place numbers from 1 to N^2 on an NxN grid such that each number is placed in a cell
-# that is exactly 3 cells away (horizontally, vertically, or diagonally) from the previous number.
-# The script uses backtracking to explore all possible paths and find a valid solution.
+# that is exactly 3 cells away horizontally or vertically) or 2 cells away diagonally from the previous
+# number.
 
 import numpy as np
 import os
